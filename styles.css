@@ -1,0 +1,134 @@
+ .navbar-brand img{
+   
+
+    width: 120px;
+
+}
+.container-fluid{
+   
+    background-color: #2b2828;
+   
+
+ }
+.container-fluid a{
+color: white;
+} 
+ .btn-outline-success{
+    --bs-btn-color: #e6fff3;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #f4f4f4;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+
+}
+.dropdown-menu {
+    --bs-dropdown-zindex: 1000;
+    --bs-dropdown-min-width: 10rem;
+    --bs-dropdown-padding-x: 0;
+    --bs-dropdown-padding-y: 0.5rem;
+    --bs-dropdown-spacer: 0.125rem;
+    --bs-dropdown-font-size: 1rem;
+    --bs-dropdown-color: var(--bs-body-color);
+    --bs-dropdown-bg: rgb(141, 139, 139);
+    }
+    /* .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        color: rgb(255 255 255);}
+
+    .navbar-expand-lg .navbar-collapse {
+             display: flex!important;
+            flex-basis: auto; 
+             justify-content: space-around; 
+             padding: 0rem; 
+             margin: 0rem 0rem 0rem 20rem; 
+        }  */
+
+           .logoagain {
+              
+               color: rgb(0, 0, 0);
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                display: flex;
+               justify-content: center; 
+               font-size: 70px;
+               position: relative;
+               animation-name: example;
+               animation-duration: 4s;
+               
+           }
+
+           @keyframes example {
+  0%   {left: -100px; top: 0px;}
+  25%  {left: 0px; top: 0px;}
+  50%  {left: 0px; top: 50px;}
+  75%  {left: 0px; top: 0px;}
+  100% {left: 0px; top: 0px;}
+}
+.card{
+    display: flex;
+    padding: 1rem;
+}
+.cardtexts{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+   
+   
+   
+}
+.cardtexts h1{
+    font-size: xxx-large;
+    font-weight: bold;
+    border-bottom: 1px solid #2b2828;
+  border-width: 2px;
+}
+.card {
+   
+    --bs-card-bg: #030303;
+   
+    color: #ffffff;
+    
+}
+.navbar-toggler-icon {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.branch-info {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-bottom: 20px;
+}
+
+.contact-info h3,
+.branch-info h3 {
+    color: #4CAF50;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: -8rem;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.social-icons img{
+    width: 50px;
+}
